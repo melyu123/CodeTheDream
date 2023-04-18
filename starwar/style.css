@@ -1,0 +1,97 @@
+* {
+   margin: 0;
+   padding: 0;
+
+ }
+
+ body {
+   background-color: black;
+ }
+
+ .header {
+   height: 200px;
+   background-color: black;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   text-align: center;
+
+ }
+
+ img {
+   width: 300px;
+   height: auto;
+   padding-top: 20px;
+
+ }
+
+ .titlelist {
+   display: flex;
+   list-style: none;
+   padding-left: 500px;
+ }
+
+ .titlelist li {
+   margin-top: 20px;
+   margin-left: 130px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   font-weight: bold;
+ }
+
+ a {
+   color: aquamarine;
+   text-decoration: none;
+ }
+
+ .section {
+   position: relative;
+   margin: 0 auto;
+   width: 1500px;
+   height: 800px;
+
+
+ }
+
+ .section img {
+   width: 100%;
+   height: auto;
+ }
+
+ .section .left {
+   position: absolute;
+   left: 50px;
+   top: 400px;
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   border-radius: 50%;
+   opacity: 30%;
+   text-align: center;
+   line-height: 50px;
+   font-size: 2rem;
+ }
+
+
+ .section .right {
+   position: absolute;
+   right: 50px;
+   top: 400px;
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   border-radius: 50%;
+   opacity: 30%;
+   text-align: center;
+   line-height: 50px;
+   font-size: 2rem;
+ }
+
+ .right:hover {
+   opacity: 100%;
+ }
+
+ .left:hover {
+   opacity: 100%;
+ }
+
+
+ 

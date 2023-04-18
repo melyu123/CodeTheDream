@@ -1,0 +1,62 @@
+* {
+   margin: 0;
+   padding: 0;
+
+ }
+
+ body {
+   background-color: black;
+ }
+
+ .header {
+   height: 200px;
+   background-color: black;
+   border-bottom: 1px solid rgb(255, 255, 255);
+   text-align: center;
+
+ }
+
+ img {
+   width: 300px;
+   height: auto;
+   padding-top: 20px;
+
+ }
+
+ a {
+   color: aquamarine;
+   text-decoration: none;
+ }
+
+ .section {
+   position: relative;
+   margin: 0 auto;
+   width: 1500px;
+   height: 800px;
+
+
+ }
+
+ .section img {
+   position: absolute;
+   width: 100%;
+   height: auto;
+ }
+
+ h1 {
+   position: absolute;
+   color: aquamarine;
+   padding-left: 100px;
+   padding-top: 50px;
+ }
+
+ ul {
+   position: absolute;
+   top: 100px;
+   text-decoration: underline;
+   color: aquamarine;
+   padding-left: 180px;
+   line-height: 2rem;
+ }
+
+
